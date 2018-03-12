@@ -1,0 +1,162 @@
+.survey-builder{
+	list-style: none;
+	padding: 0;
+}
+.survey-builder li{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ddd;
+}
+.field-type{
+	width: auto;
+	min-width: 300px;
+}
+.chart-options select{
+	display: none
+}
+.field-name{
+	width: auto;
+	height: 30px;
+	padding: 6px;
+}
+.options-buttons > *{
+	float: right;
+	margin: 0 1px;
+	padding: 4px 4px 6px;
+}
+.options-buttons > .handle{
+	margin-top: 5px;
+	padding: 0px;
+}
+.inline-input{
+	font-size: 17px;
+	font-weight: normal;
+	border: none;
+	color: #333;
+	margin: 8px 0 10px;
+	width: 100%;
+}
+.inline-block{
+	display: inline-block;
+}
+.inline-block input{
+	vertical-align: top;
+}
+.label-gray{
+	font-weight: normal;
+	color: #555;
+}
+.handle{
+	cursor: move;
+}
+.q_chart_fields,
+.q_type_fields {
+	margin-top: 10px;
+}
+.q_type_fields{
+	display: none;
+}
+.page-title{
+	margin-bottom: 40px;
+	font-size: 28px;
+}
+.instruction-title{
+	font-size: 20px;
+	padding: 10px 0 5px;
+}
+.instruction{
+	border-top: 1px solid #ddd;
+}
+.question{
+	padding: 5px 0 10px;
+}
+.checkbox, .radio{
+	margin-top: 0;
+}
+.mt-20{
+	margin-top: 20px;
+}
+span.select2-container {
+	width: 100% !important;
+}
+.select2-search {
+	padding: 0 !important;
+	width: 100% !important;
+	border: none !important;
+}
+.select2-search input {
+	width: 120px !important;
+}
+.hide{
+	display: none;
+}
+.instruction-field,
+.expanation-field{
+	font-weight: bold;
+}
+.instruction-field{
+	font-size: 23px;
+	height: 50px;
+}
+.expanation-field{
+	height: 30px;
+	color: #494949;
+}
+
+/* Survey Page */
+.question-title{
+	font-weight: normal;
+}
+.explanation-title{
+	font-weight: bold;
+	font-size: 17px;
+}
+.loaded-title{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.list-group-item{
+	-webkit-column-break-inside: avoid;
+          page-break-inside: avoid;
+               break-inside: avoid;
+}
+.results-table td{
+	vertical-align: middle !important;
+}
+.results-table tr td:last-child{
+	min-width: 55%;
+}
+.results-table > table{
+	margin: 0;
+}
+
+.open-compare-btn{
+	display: none;
+	vertical-align: middle;
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	border: none;
+	color: #fff;
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 16px;
+	cursor: pointer;
+	text-decoration: none !important;
+}
+.open-compare-btn.disabled{
+	opacity: 0.6;
+	cursor: no-drop;
+}
+.open-compare-btn:not(.disabled) .text2{
+	display: none;
+}
+.open-compare-btn.disabled .text1{
+	display: none;
+}
+.table-small tr > *{
+	padding: 5px 10px !important;
+	border-width: 1px !important;
+}
